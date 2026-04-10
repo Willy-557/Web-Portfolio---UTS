@@ -22,9 +22,18 @@
     background-color: yellow;
 }
 
+.containerKotak{
+    max-width: 500px;
+    width: 100%;
+}
+
 .item{
     border: 1px solid black;
     /* border: none; */
+}
+
+.col30 {
+    width: 30%;
 }
 
 
