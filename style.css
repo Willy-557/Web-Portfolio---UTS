@@ -1,0 +1,55 @@
+.containerNavbar {
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+    top: 0;
+    position: sticky;
+}
+
+.containerNavbar a {
+    text-decoration: none;
+    color: black;
+}
+
+#kiriNavbar {
+    margin-left: 20px;
+}
+
+#kananNavbar {
+    margin-right: 20px;
+    gap: 40px;
+}
+
+#body1kiri {
+    font-size: x-large;
+    align-content: center;
+    margin-left: 30px;
+}
+#body1kanan img{
+    max-width: 400px;
+    width: 100%;
+}
+
+#body1 {
+    justify-content: space-between;
+    padding: 215px 0px;
+    color: white;
+}
+
+#bulat {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#kotak {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 40px;
+    background-color: black;
+}
+
+#skill {
+    gap: 20px;
+}
