@@ -8,25 +8,26 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="containerNavbar">
-            <div class="item kiri" id="kiriNavbar">
-                <h3><a href="">Portfolio</a></h3>
-            </div>
-            <div class="item kanan">
-                <div class="container" id="kananNavbar">
-                    <p><a href="#home">Home</a></p>
-                    <p><a href="#about">About</a></p>
-                    <p><a href="#portfolio">Portfolio</a></p>
-                    <p><a href="">Contact</a></p>  
+        <section id="navbar">
+            <div class="containerNavbar">
+                <div class="item" id="kiriNavbar">
+                    <h3><a href="">Will.</a></h3>
+                </div>
+                <div class="item kanan">
+                    <div class="container" id="kananNavbar">
+                        <h4><a href="#home">Home</a></h4>
+                        <h4><a href="#about">About</a></h4>
+                        <h4><a href="#project">Project</a></h4>
+                        <h4><a href="#certificate">Certification</a></h4> 
+                        <h4><a href="#skill">Skills</a></h4>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        
         <section id="home">
-            
             <div class="container" id="body1">
-                <div class="item kiri" id="body1kiri">
+                <div class="item" id="body1kiri">
                     <div class="container">
                         <p id="bulat">Ready to innovate</p>
                     </div>
@@ -49,15 +50,17 @@
                         <p id="kotak">Contacts</p>
                     </div>
                     <br>
-                    <div class="container"  id="skill">
-                        <p id="bulat">Logo 1</p>
-                        <p id="bulat">Logo 1</p>
-                        <p id="bulat">Logo 1</p>
+                    <div class="container" id="skill">
+                        <img id="bulat" src="git.png" alt="">
+                        <img id="bulat" src="linkedin.png" alt="">
+                        <img id="bulat" src="ig.png" alt="">
                     </div>
                 </div>
 
-                <div class="item kanan" id="body1kanan">
-                    <img src="logo.png" alt="">
+                <div class="item" id="body1kanan">
+                    <div class="container" >
+                        <img src="fe.png" alt="">
+                    </div>
                 </div>
             </div>
         </section>
@@ -70,7 +73,7 @@
             </div>
 
             <div class="container" id="body2">
-                <div class="item kiri" id="body2kiri">
+                <div class="item" id="body2kiri">
                     <h1>Hello, I'm</h1>
                     <br>
                     <h1>William Fabian Setiadi</h3>
@@ -84,7 +87,7 @@
                     <br>
                 </div>
 
-                <div class="item kanan">
+                <div class="item">
                     <div class="container" id="body2kanan">
                         <img id="gbr1" src="muka1.png" alt="">
                     </div>
@@ -92,7 +95,7 @@
             </div>
 
             <div class="container" id="body2bawah">
-                <div class="item kiri" id="border">
+                <div class="item" id="border">
                     <div class="container" id="kotakbody2">
                         <div class="item">
                             <img id="bulat" src="htmlLogo.png" alt="">
@@ -120,7 +123,7 @@
                     </div>
                 </div>
 
-                <div class="item kanan" id="border">
+                <div class="item" id="border">
                     <div class="container" id="kotakbody2">
                         <div class="item">
                             <img id="bulat" src="experience.png" alt="">
@@ -137,29 +140,27 @@
             <div class="container bawah"></div>
         </section>
 
-        <section id="portfolio">
+        <section id="project">
             <div class="container atas"></div>
             <div class="container item" id="body2atas">
-                <h1>Portfolio Showcase</h1>
+                <h1>Project Showcase</h1>
                 <p id="pemisah">Explore my journey through projects, certifications, and technical expertise. Each section represents a milestone in my continous learning path.</p>
             </div>
-
-            <div class="container item" id="body3atas">
-                <img src="htmlLogo.png" alt="">
-                <p id="pemisah">Project</p>
-            </div>
+            <br>
 
             <div class="container" id="body3bawah">
+
                 <div class="item" id="borderkotak">
                     <div class="containerKotak" id="kotakbody2">
                         <div class="item" id="gbrKotak">
-                            <img id="kotak" src="tes.png" alt="">
-                            <p id="pemisah"><b>Aritmatika Solver</b></p>
-                            <p id="pemisah">Program ini dirancang untuk mempermudah pengguna dalam menyelesaikan soal-soal Aritmatika secara otomati...</p>
+                            <img id="gbrKotak" src="p1.png" alt="">
+                            <h4 id="pemisah">Website Milo Jelly</h4>
+                            <br>
+                            <p id="pemisah">Website ini dirancang untuk menampilkan informasi profil perusahaan secara profesional, lengkap dengan halaman layana...</p>
                             <br>
                             <div class="container" id="jarak">
-                                <p id="pemisah">Live Demo</p>
-                                <p id="pemisah">Details</p>
+                                <p class="btn" id="pemisah">Live Demo</p>
+                                <p class="btn1" id="pemisah">Details</p>
                             </div>
                         </div>
                     </div>
@@ -168,13 +169,14 @@
                 <div class="item" id="borderkotak">
                     <div class="containerKotak" id="kotakbody2">
                         <div class="item" id="gbrKotak">
-                            <img id="kotak" src="tes.png" alt="">
-                            <p id="pemisah"><b>Aritmatika Solver</b></p>
-                            <p id="pemisah">Program ini dirancang untuk mempermudah pengguna dalam menyelesaikan soal-soal Aritmatika secara otomati...</p>
+                            <img src="p2.png" alt="">
+                            <h4 id="pemisah">Aplikasi Cuaca Harian</h4>
+                            <br>
+                            <p id="pemisah">Program ini dirancang untuk mempermudah pengguna dalam mengecek prakiraan cuaca secara real-time berdasarka...</p>
                             <br>
                             <div class="container" id="jarak">
-                                <p id="pemisah">Live Demo</p>
-                                <p id="pemisah">Details</p>
+                                <p class="btn" id="pemisah">Live Demo</p>
+                                <p class="btn1" id="pemisah">Details</p>
                             </div>
                         </div>
                     </div>
@@ -183,60 +185,14 @@
                 <div class="item" id="borderkotak">
                     <div class="containerKotak" id="kotakbody2">
                         <div class="item" id="gbrKotak">
-                            <img id="kotak" src="tes.png" alt="">
-                            <p id="pemisah"><b>Aritmatika Solver</b></p>
-                            <p id="pemisah">Program ini dirancang untuk mempermudah pengguna dalam menyelesaikan soal-soal Aritmatika secara otomati...</p>
+                            <img src="p3.png" alt="">
+                            <h4 id="pemisah">Portal Berita Terkini</h4>
+                            <br>
+                            <p id="pemisah">Platform ini dibangun untuk mempermudah pengguna dalam membaca dan mencari artikel berita terbaru dengan antarmuka yan...</p>
                             <br>
                             <div class="container" id="jarak">
-                                <p id="pemisah">Live Demo</p>
-                                <p id="pemisah">Details</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container" id="body3bawah">
-                <div class="item" id="borderkotak">
-                    <div class="containerKotak" id="kotakbody2">
-                        <div class="item" id="gbrKotak">
-                            <img id="kotak" src="tes.png" alt="">
-                            <p id="pemisah"><b>Aritmatika Solver</b></p>
-                            <p id="pemisah">Program ini dirancang untuk mempermudah pengguna dalam menyelesaikan soal-soal Aritmatika secara otomati...</p>
-                            <br>
-                            <div class="container" id="jarak">
-                                <p id="pemisah">Live Demo</p>
-                                <p id="pemisah">Details</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item" id="borderkotak">
-                    <div class="containerKotak" id="kotakbody2">
-                        <div class="item" id="gbrKotak">
-                            <img id="kotak" src="tes.png" alt="">
-                            <p id="pemisah"><b>Aritmatika Solver</b></p>
-                            <p id="pemisah">Program ini dirancang untuk mempermudah pengguna dalam menyelesaikan soal-soal Aritmatika secara otomati...</p>
-                            <br>
-                            <div class="container" id="jarak">
-                                <p id="pemisah">Live Demo</p>
-                                <p id="pemisah">Details</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item" id="borderkotak">
-                    <div class="containerKotak" id="kotakbody2">
-                        <div class="item" id="gbrKotak">
-                            <img id="kotak" src="tes.png" alt="">
-                            <p id="pemisah"><b>Aritmatika Solver</b></p>
-                            <p id="pemisah">Program ini dirancang untuk mempermudah pengguna dalam menyelesaikan soal-soal Aritmatika secara otomati...</p>
-                            <br>
-                            <div class="container" id="jarak">
-                                <p id="pemisah">Live Demo</p>
-                                <p id="pemisah">Details</p>
+                                <p class="btn" id="pemisah">Live Demo</p>
+                                <p class="btn1" id="pemisah">Details</p>
                             </div>
                         </div>
                     </div>
@@ -247,13 +203,14 @@
                 <div class="item" id="borderkotak">
                     <div class="containerKotak" id="kotakbody2">
                         <div class="item" id="gbrKotak">
-                            <img id="kotak" src="tes.png" alt="">
-                            <p id="pemisah"><b>Aritmatika Solver</b></p>
-                            <p id="pemisah">Program ini dirancang untuk mempermudah pengguna dalam menyelesaikan soal-soal Aritmatika secara otomati...</p>
+                            <img src="p4.png" alt="">
+                            <h4 id="pemisah">Pencari Resep Makanan</h4>
+                            <br>
+                            <p id="pemisah">Aplikasi ini dirancang untuk mempermudah pengguna dalam mencari berbagai macam resep masakan lengkap dengan dafta...</p>
                             <br>
                             <div class="container" id="jarak">
-                                <p id="pemisah">Live Demo</p>
-                                <p id="pemisah">Details</p>
+                                <p class="btn" id="pemisah">Live Demo</p>
+                                <p class="btn1" id="pemisah">Details</p>
                             </div>
                         </div>
                     </div>
@@ -262,13 +219,14 @@
                 <div class="item" id="borderkotak">
                     <div class="containerKotak" id="kotakbody2">
                         <div class="item" id="gbrKotak">
-                            <img id="kotak" src="tes.png" alt="">
-                            <p id="pemisah"><b>Aritmatika Solver</b></p>
-                            <p id="pemisah">Program ini dirancang untuk mempermudah pengguna dalam menyelesaikan soal-soal Aritmatika secara otomati...</p>
+                            <img src="p5.png" alt="">
+                            <h4 id="pemisah">Aplikasi To-Do List (Manajemen Tugas)</h4>
+                            <br>
+                            <p id="pemisah">Program ini dirancang untuk mempermudah pengguna dalam mencatat, melacak, dan mengelola daftar pekerjaan sehari-hari aga...</p>
                             <br>
                             <div class="container" id="jarak">
-                                <p id="pemisah">Live Demo</p>
-                                <p id="pemisah">Details</p>
+                                <p class="btn" id="pemisah">Live Demo</p>
+                                <p class="btn1" id="pemisah">Details</p>
                             </div>
                         </div>
                     </div>
@@ -277,13 +235,14 @@
                 <div class="item" id="borderkotak">
                     <div class="containerKotak" id="kotakbody2">
                         <div class="item" id="gbrKotak">
-                            <img id="kotak" src="tes.png" alt="">
-                            <p id="pemisah"><b>Aritmatika Solver</b></p>
-                            <p id="pemisah">Program ini dirancang untuk mempermudah pengguna dalam menyelesaikan soal-soal Aritmatika secara otomati...</p>
+                            <img src="p6.png" alt="">
+                            <h4 id="pemisah">UI Dasbor Admin</h4>
+                            <br>
+                            <p id="pemisah">Antarmuka ini dirancang untuk mempermudah pengelola sistem dalam melihat ringkasan data statistik, tabel pengguna, dan lapor...</p>
                             <br>
                             <div class="container" id="jarak">
-                                <p id="pemisah">Live Demo</p>
-                                <p id="pemisah">Details</p>
+                                <p class="btn" id="pemisah">Live Demo</p>
+                                <p class="btn1" id="pemisah">Details</p>
                             </div>
                         </div>
                     </div>
@@ -291,6 +250,112 @@
             </div>
             
             <div class="container bawah"></div>
+        </section>
+
+        <section id="certificate">
+            <div class="container atas"></div>
+            <div class="container item" id="body2atas">
+                <h1>Certification Showcase</h1>
+                <p id="pemisah">Explore my journey through projects, certifications, and technical expertise. Each section represents a milestone in my continous learning path.</p>
+            </div>
+            <br>
+
+            <div class="container" id="body4bawah">
+
+                <div class="item" id="borderkotak">
+                    <div class="containerKotak" id="kotakbody2">
+                        <div class="item" id="gbrKotak">
+                            <img id="gbrKotak" src="e1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" id="borderkotak">
+                    <div class="containerKotak" id="kotakbody2">
+                        <div class="item" id="gbrKotak">
+                            <img id="gbrKotak" src="e2.png"">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" id="borderkotak">
+                    <div class="containerKotak" id="kotakbody2">
+                        <div class="item" id="gbrKotak">
+                            <img id="gbrKotak" src="e3.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="body3bawah">
+                <div class="item" id="borderkotak">
+                    <div class="containerKotak" id="kotakbody2">
+                        <div class="item" id="gbrKotak">
+                            <img id="gbrKotak" src="e4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container bawah"></div>
+        </section>
+
+        <section id="skill">
+            <div class="container atas"></div>
+            <div class="container item" id="body2atas">
+                <h1>Ability Skills</h1>
+                <p id="pemisah">Explore my journey through projects, certifications, and technical expertise. Each section represents a milestone in my continous learning path.</p>
+            </div>
+            <br>
+
+            <div class="container" id="body4bawah">
+
+                <div class="item" id="borderkotak">
+                    <div class="containerKotak" id="kotakbody2">
+                        <div class="item" id="gbrKotak">
+                            <img id="gbrKotak" src="e1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" id="borderkotak">
+                    <div class="containerKotak" id="kotakbody2">
+                        <div class="item" id="gbrKotak">
+                            <img id="gbrKotak" src="e2.png"">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" id="borderkotak">
+                    <div class="containerKotak" id="kotakbody2">
+                        <div class="item" id="gbrKotak">
+                            <img id="gbrKotak" src="e3.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="body3bawah">
+                <div class="item" id="borderkotak">
+                    <div class="containerKotak" id="kotakbody2">
+                        <div class="item" id="gbrKotak">
+                            <img id="gbrKotak" src="e4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container bawah"></div>
+        </section>
+
+        <hr>
+
+        <section id="footer">
+            <br>
+            <div class="container" id="tengah">
+                <h4>&copy; 2026 William. All rights reserved.</h4>
+            </div>
+            <br>
         </section>
 
     </body>

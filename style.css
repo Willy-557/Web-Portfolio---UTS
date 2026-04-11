@@ -1,7 +1,7 @@
 .containerNavbar {
     justify-content: space-between;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-size: larger;
     top: 0;
     position: sticky;
@@ -22,8 +22,15 @@
 }
 
 #body1kanan img{
-    max-width: 400px;
+    max-width: 600px;
     width: 100%;
+    height: 600px;
+    top: 10px;
+}
+
+#body1kanan {
+    align-items: center;
+    justify-content: center;
 }
 
 #body1 {
@@ -48,6 +55,11 @@
 
 #skill {
     gap: 20px;
+}
+
+#skill img {
+    max-width: 70px;
+    width: 100%;
 }
 
 #body1kiri h1 {
@@ -81,7 +93,6 @@
 
 #body2kiri {
     font-size: larger;
-    margin-left: 30px;
     width: 600px;
 }
 
@@ -97,18 +108,10 @@
 }
 
 #border {
-    border: 1px solid green;    
+    background-color: rgb(208, 204, 204);    
     border-radius: 5px;
     max-width: 450px;
     width: 100%;
-}
-
-.kiri {
-    margin-left: 30px;
-}
-
-.kanan {
-    margin-right: 30px;
 }
 
 .atas {
@@ -119,12 +122,8 @@
     padding: 100px;
 }
 
-/* #body2bawah {
-    padding-bottom: 50px;
-} */
-
 #pemisah {
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 #borderkotak {
@@ -151,4 +150,49 @@
 #body3atas {
     display: block;
     text-align: center;
+    background-color: gray;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#home {
+    background-color: #eff0f3;
+}
+
+#about {
+    background-color: #eff0f3;
+}
+
+#tengah {
+    justify-content: center;
+}
+
+#gbrKotak img{
+    max-width: 500px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: rgb(176, 49, 49);
+    background: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+
+.btn1 {
+    background-color: rgb(235, 221, 221);
+    border-radius: 5px;
+    padding: 8px 35px;
+}
+
+#body4bawah {
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#body4bawah img{
+    width: 100%;
 }
