@@ -2,7 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Inter', sans-serif;
+    
+    color: #F1F5F9;
+}
+
+body {
+    background-color: #121212;
 }
 
 .container{
@@ -21,7 +28,6 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    position: relative;
     /* background-color: yellow; */
 }
 

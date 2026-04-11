@@ -6,20 +6,24 @@
         <title>Website Portfolio</title>
         <link rel="stylesheet" href="global.css">
         <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     </head>
     <body>
         <section id="navbar">
             <div class="containerNavbar">
                 <div class="item" id="kiriNavbar">
-                    <h3><a href="">Will.</a></h3>
+                    <h4 id="btn4a"><a href="#home">Will.</a></h4>
                 </div>
-                <div class="item kanan">
+                <div class="item">
                     <div class="container" id="kananNavbar">
-                        <h4><a href="#home">Home</a></h4>
-                        <h4><a href="#about">About</a></h4>
-                        <h4><a href="#project">Project</a></h4>
-                        <h4><a href="#certificate">Certification</a></h4> 
-                        <h4><a href="#skill">Skills</a></h4>
+                        <h4 id="btn4"><a href="#home">Home</a></h4>
+                        <h4 id="btn4"><a href="#about">About</a></h4>
+                        <h4 id="btn4"><a href="#project">Project</a></h4>
+                        <h4 id="btn4"><a href="#certificate">Certification</a></h4> 
+                        <h4 id="btn4"><a href="#skills">Skills</a></h4>
                     </div>
                 </div>
             </div>
@@ -32,7 +36,7 @@
                         <p id="bulat">Ready to innovate</p>
                     </div>
                     <br>
-                    <h1>Frontend <br> Developer</h1>
+                    <h1>Fullstack <br> Developer</h1>
                     <br>
                     <h3>ISTTS Student</h3>
                     <br>
@@ -51,9 +55,9 @@
                     </div>
                     <br>
                     <div class="container" id="skill">
-                        <img id="bulat" src="git.png" alt="">
-                        <img id="bulat" src="linkedin.png" alt="">
-                        <img id="bulat" src="ig.png" alt="">
+                        <a href="https://github.com/Willy-557"><img class="btn3" id="bulat" src="github-white-icon.webp" alt=""></a>
+                        <img class="btn3" id="bulat" src="linkedin.png" alt="">
+                        <img class="btn3" id="bulat" src="ig.png" alt="">
                     </div>
                 </div>
 
@@ -75,7 +79,6 @@
             <div class="container" id="body2">
                 <div class="item" id="body2kiri">
                     <h1>Hello, I'm</h1>
-                    <br>
                     <h1>William Fabian Setiadi</h3>
                     <br>
                     <p>Seorang mahasiswa dari jurusan Sistem Informasi Bisnis yang tertarik dalam pengembangan Front-End. Saya berfokus pada menciptakan pengalamana digital yang menarik dan selalu berusaha memberikan solusi terbaik dalam setiap proyek.</p>
@@ -96,16 +99,19 @@
 
             <div class="container" id="body2bawah">
                 <div class="item" id="border">
-                    <div class="container" id="kotakbody2">
-                        <div class="item">
-                            <img id="bulat" src="htmlLogo.png" alt="">
-                            <p id="pemisah"><b>TOTAL PROJECTS</b></p>
-                            <p id="pemisah">Innovative web solution crafted</p>
+                    <div class="donker">
+                        <div class="container" id="kotakbody2">
+                            <div class="item">
+                                <img id="bulat" src="htmlLogo.png" alt="">
+                                <p id="pemisah"><b>TOTAL PROJECTS</b></p>
+                                <p id="pemisah">Innovative web solution crafted</p>
+                            </div>
+
+                            <div class="item">
+                                <h1>6</h1>
+                            </div>
                         </div>
 
-                        <div class="item">
-                            <h1>10</h1>
-                        </div>
                     </div>
                 </div>
 
@@ -118,7 +124,7 @@
                         </div>
 
                         <div class="item">
-                            <h1>5</h1>
+                            <h1>4</h1>
                         </div>
                     </div>
                 </div>
@@ -136,15 +142,17 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
-            <div class="container bawah"></div>
+            <div class="bawah"></div>
+            
         </section>
 
         <section id="project">
-            <div class="container atas"></div>
+            <div class="atas"></div>
             <div class="container item" id="body2atas">
                 <h1>Project Showcase</h1>
-                <p id="pemisah">Explore my journey through projects, certifications, and technical expertise. Each section represents a milestone in my continous learning path.</p>
+                <p id="pemisah">Explore my portfolio of concept projects, showcasing my hands-on experience in building responsive and user-friendly applications.</p>
             </div>
             <br>
 
@@ -154,12 +162,12 @@
                     <div class="containerKotak" id="kotakbody2">
                         <div class="item" id="gbrKotak">
                             <img id="gbrKotak" src="p1.png" alt="">
-                            <h4 id="pemisah">Website Milo Jelly</h4>
+                            <h4 id="pemisah">Milo Jelly Corporate Website</h4>
                             <br>
-                            <p id="pemisah">Website ini dirancang untuk menampilkan informasi profil perusahaan secara profesional, lengkap dengan halaman layana...</p>
+                            <p id="pemisah">A responsive landing page built for an F&B brand, showcasing product catalogs and company profiles with a modern, appeal...</p>
                             <br>
                             <div class="container" id="jarak">
-                                <p class="btn" id="pemisah">Live Demo</p>
+                                <p  id="pemisah"><a href="https://willy-557.github.io/Website-Milo-Jelly/" class="btn">Live Demo</a></p>
                                 <p class="btn1" id="pemisah">Details</p>
                             </div>
                         </div>
@@ -170,9 +178,9 @@
                     <div class="containerKotak" id="kotakbody2">
                         <div class="item" id="gbrKotak">
                             <img src="p2.png" alt="">
-                            <h4 id="pemisah">Aplikasi Cuaca Harian</h4>
+                            <h4 id="pemisah">Daily Weather App</h4>
                             <br>
-                            <p id="pemisah">Program ini dirancang untuk mempermudah pengguna dalam mengecek prakiraan cuaca secara real-time berdasarka...</p>
+                            <p id="pemisah">A real-time weather forecasting application providing location-based updates, hourly predictions, and intuitive data visualiza....</p>
                             <br>
                             <div class="container" id="jarak">
                                 <p class="btn" id="pemisah">Live Demo</p>
@@ -186,9 +194,9 @@
                     <div class="containerKotak" id="kotakbody2">
                         <div class="item" id="gbrKotak">
                             <img src="p3.png" alt="">
-                            <h4 id="pemisah">Portal Berita Terkini</h4>
+                            <h4 id="pemisah">Latest News Portal</h4>
                             <br>
-                            <p id="pemisah">Platform ini dibangun untuk mempermudah pengguna dalam membaca dan mencari artikel berita terbaru dengan antarmuka yan...</p>
+                            <p id="pemisah">A dynamic news aggregator platform featuring categorized articles, search functionality, and a clean reading experi...</p>
                             <br>
                             <div class="container" id="jarak">
                                 <p class="btn" id="pemisah">Live Demo</p>
@@ -204,9 +212,9 @@
                     <div class="containerKotak" id="kotakbody2">
                         <div class="item" id="gbrKotak">
                             <img src="p4.png" alt="">
-                            <h4 id="pemisah">Pencari Resep Makanan</h4>
+                            <h4 id="pemisah">Recipe Finder App</h4>
                             <br>
-                            <p id="pemisah">Aplikasi ini dirancang untuk mempermudah pengguna dalam mencari berbagai macam resep masakan lengkap dengan dafta...</p>
+                            <p id="pemisah">An interactive platform allowing users to seamlessly search, filter, and discover various culinary recipes with detailed step-by-step instructi...</p>
                             <br>
                             <div class="container" id="jarak">
                                 <p class="btn" id="pemisah">Live Demo</p>
@@ -220,9 +228,9 @@
                     <div class="containerKotak" id="kotakbody2">
                         <div class="item" id="gbrKotak">
                             <img src="p5.png" alt="">
-                            <h4 id="pemisah">Aplikasi To-Do List (Manajemen Tugas)</h4>
+                            <h4 id="pemisah">Task Management (To-Do) App</h4>
                             <br>
-                            <p id="pemisah">Program ini dirancang untuk mempermudah pengguna dalam mencatat, melacak, dan mengelola daftar pekerjaan sehari-hari aga...</p>
+                            <p id="pemisah">A productivity tool designed to help users efficiently create, track, and manage their daily tasks and workfl...</p>
                             <br>
                             <div class="container" id="jarak">
                                 <p class="btn" id="pemisah">Live Demo</p>
@@ -236,9 +244,9 @@
                     <div class="containerKotak" id="kotakbody2">
                         <div class="item" id="gbrKotak">
                             <img src="p6.png" alt="">
-                            <h4 id="pemisah">UI Dasbor Admin</h4>
+                            <h4 id="pemisah">Admin Dashboard UI</h4>
                             <br>
-                            <p id="pemisah">Antarmuka ini dirancang untuk mempermudah pengelola sistem dalam melihat ringkasan data statistik, tabel pengguna, dan lapor...</p>
+                            <p id="pemisah">A comprehensive administrative interface built for data monitoring, featuring statistical charts, user management tables, and summary repo...</p>
                             <br>
                             <div class="container" id="jarak">
                                 <p class="btn" id="pemisah">Live Demo</p>
@@ -249,14 +257,14 @@
                 </div>
             </div>
             
-            <div class="container bawah"></div>
+            <div class="bawah"></div>
         </section>
 
         <section id="certificate">
-            <div class="container atas"></div>
+            <div class="atas"></div>
             <div class="container item" id="body2atas">
                 <h1>Certification Showcase</h1>
-                <p id="pemisah">Explore my journey through projects, certifications, and technical expertise. Each section represents a milestone in my continous learning path.</p>
+                <p id="pemisah">A collection of professional certifications and workshops I have completed. These credentials validate my technical expertise and commitment to staying updated with industry standards.</p>
             </div>
             <br>
 
@@ -266,6 +274,8 @@
                     <div class="containerKotak" id="kotakbody2">
                         <div class="item" id="gbrKotak">
                             <img id="gbrKotak" src="e1.png" alt="">
+                            <h4 id="pemisah">Future Builders Workshop</h4>
+                            <p id="pemisah">Issued by GDG on Campus ISTTS • Sep 2025</p>
                         </div>
                     </div>
                 </div>
@@ -273,7 +283,9 @@
                 <div class="item" id="borderkotak">
                     <div class="containerKotak" id="kotakbody2">
                         <div class="item" id="gbrKotak">
-                            <img id="gbrKotak" src="e2.png"">
+                            <img id="gbrKotak" src="e2.png">
+                            <h4 id="pemisah">Building Transformer-Based NLP Applications</h4>
+                            <p id="pemisah">Issued by NVIDIA • Nov 2025</p>
                         </div>
                     </div>
                 </div>
@@ -282,6 +294,8 @@
                     <div class="containerKotak" id="kotakbody2">
                         <div class="item" id="gbrKotak">
                             <img id="gbrKotak" src="e3.jpeg" alt="">
+                            <h4 id="pemisah">Strategi Cerdas Menggunakan AI untuk Bisnis Online</h4>
+                            <p id="pemisah">Issued by Campus ISTTS • Nov 2025</p>
                         </div>
                     </div>
                 </div>
@@ -292,57 +306,110 @@
                     <div class="containerKotak" id="kotakbody2">
                         <div class="item" id="gbrKotak">
                             <img id="gbrKotak" src="e4.png" alt="">
+                            <h4 id="pemisah">Fundamental of Deep Learning</h4>
+                            <p id="pemisah">Issued by NVIDIA • Oct 2025</p>
                         </div>
                     </div>
                 </div>
             </div>
             
-            <div class="container bawah"></div>
+            <div class="bawah"></div>
         </section>
 
-        <section id="skill">
-            <div class="container atas"></div>
+        <section id="skills">
+            <div class="atas"></div>
             <div class="container item" id="body2atas">
-                <h1>Ability Skills</h1>
-                <p id="pemisah">Explore my journey through projects, certifications, and technical expertise. Each section represents a milestone in my continous learning path.</p>
+                <h1>Technical Skills</h1>
+                <p id="pemisah">A highlight of the programming languages, frameworks, and tools I use to build scalable and efficient applications.</p>
             </div>
+
             <br>
 
             <div class="container" id="body4bawah">
-                <div class="item" >
-                    <div class="containerKotak" id="kotakbody2">
-                        <div class="item" id="gbrKotak4">
-                            <img src="css.png" alt="">
+                <div class="container item" id="body2atas">
+                    <div class="abu">
+                        <br>
+                        <h3>Frontend Skills</h3>
+
+                        <div class="item" >
+                            <div class="container" id="kotakSkill">
+                                <div class="item" id="gbrKotak4">
+                                    <img src="css.png" alt="">
+                                    <h4>CSS</h4>
+                                </div>
+                                <div class="item" id="gbrKotak4">
+                                    <img src="html.png">
+                                    <h4>HTML</h4>
+                                </div>
+                                <div class="item" id="gbrKotak4">
+                                    <img src="js.png">
+                                    <h4>JavaScript</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="item" >
-                    <div class="containerKotak" id="kotakbody2">
-                        <div class="item" id="gbrKotak4">
-                            <img src="html.png"">
+                <div class="container item" id="body2atas">
+                    <div class="abu">
+                        <br>
+                        <h3>Backend Skills</h3>
+
+                        <div class="item" >
+                            <div class="container" id="kotakSkill">
+                                <div class="item" id="gbrKotak4">
+                                    <img src="python.png" alt="">
+                                    <h4>Python</h4>
+                                </div>
+                                <div class="item" id="gbrKotak4">
+                                    <img src="java.png" alt="">
+                                    <h4>Java</h4>
+                                </div>
+                                <div class="item" id="gbrKotak4">
+                                    <img src="php.png" alt="">
+                                    <h4>PHP</h4>
+                                </div>
+                                <div class="item" id="gbrKotak4">
+                                    <img src="golang.png" alt="">
+                                    <h4>Golang</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="item" >
-                    <div class="containerKotak" id="kotakbody2">
-                        <div class="item" id="gbrKotak4">
-                            <img src="python.png" alt="">
-                        </div>
-                    </div>
-                </div>
+            <div class="container" id="body4bawah">
+                <div class="container item" id="body2atas">
+                    <div class="abu">
+                        <br>
+                        <h3>Other Skills</h3>
 
-                <div class="item" id="borderkotak4">
-                    <div class="containerKotak" id="kotakbody2">
-                        <div class="item" id="gbrKotak4">
-                            <img src="java.webp" alt="">
+                        <div class="item" >
+                            <div class="container" id="kotakSkill">
+                                <div class="item" id="gbrKotak4">
+                                    <img src="premiere.png" alt="">
+                                    <h4>Premiere</h4>
+                                </div>
+                                <div class="item" id="gbrKotak4">
+                                    <img src="photoshop.png">
+                                    <h4>Photoshop</h4>
+                                </div>
+                                <div class="item" id="gbrKotak4">
+                                    <img src="capcut.jpg">
+                                    <h4>Capcut</h4>
+                                </div>
+                                <div class="item" id="gbrKotak4">
+                                    <img src="figma.png">
+                                    <h4>Figma</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             
-            <div class="container bawah"></div>
+            <div class="bawah"></div>
         </section>
 
         <hr>
