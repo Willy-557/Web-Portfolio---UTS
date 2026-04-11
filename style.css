@@ -196,3 +196,9 @@
 #body4bawah img{
     width: 100%;
 }
+
+#gbrKotak4 img{
+    max-width: 100px;
+    width: 100%;
+    border-radius: 5px;
+}
