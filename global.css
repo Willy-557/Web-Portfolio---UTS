@@ -2,17 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-    
     color: #F1F5F9;
+    scroll-behavior: smooth;
 }
 
 body {
+    font-family: 'Inter', sans-serif;
     background-color: #121212;
 }
 
 .container{
-    max-width: 1400px;
+    max-width: 1280px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -22,26 +22,31 @@ body {
 }
 
 .containerNavbar{
-    max-width: 1400px;
+    max-width: 1280px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    /* background-color: yellow; */
+    /* background-color: yellow;     */
 }
 
 .containerKotak{
-    max-width: 500px;
+    max-width: 630px;
     width: 100%;
 }
 
 .item{
     border: 1px solid black;
-    border: none;
+    border: none;   
 }
 
 .col30 {
     width: 30%;
+}
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 
