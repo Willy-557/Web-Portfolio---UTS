@@ -392,7 +392,7 @@
 }
 
 #TechHead {
-    gap: 20px;
+    gap: 10px;
     align-items: center;
     margin-bottom: 30px;
 }
@@ -402,7 +402,7 @@
     flex-wrap: wrap;
 }
 
-#textJalan {
+/* #textJalan {
   animation: gerakKanan 10s linear infinite; 
   color: #20c997;
   font-weight: bold;
@@ -416,4 +416,4 @@
   100% {
     transform: translateX(100vw);
   }
-}
+} */
