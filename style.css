@@ -58,7 +58,6 @@
 #body1 {
     justify-content: space-between;
     padding: 140px 0px;
-    /* color: white; */
 }
 
 #bulat {
@@ -237,14 +236,6 @@
     cursor: pointer;
 }
 
-/* .btn1 {
-    background-color: #10B981;
-    border-radius: 5px;
-    padding: 8px 35px;
-    transition: 0.3s;
-    color: #121212;
-} */
-
 #arrow2:hover {
     background-color: #059669;
     cursor: pointer;
@@ -254,17 +245,6 @@
     width: 450px;
     margin: 0px 10px
 }
-
-/* #techStack {
-    display: block;
-} */
-
-/* #border {
-    background-color: #0F172A;    
-    border-radius: 5px;
-    max-width: 400px;
-    width: 100%;
-} */
 
 .atas {
     padding-top: 140px;
@@ -281,16 +261,6 @@
 #jarak {
     justify-content: space-between;
 }
-/* 
-#gbrKotak img{
-    width: 100%;
-} */
-
-/* #gbrKotak video {
-    width: 100%;
-    height: 50%;
-} */
-
 
 #body3bawah {
     justify-content: flex-start;
@@ -349,22 +319,9 @@
     flex-wrap: wrap;
 }
 
-/* .abu {
-    background-color: #1E293B;
-    padding: 10px;
-    border-radius: 10px;
-    transition: 0.5s;
-}
-
-.abu:hover {
-    transform: scale(1.1);
-} */
-
 #btn4 {
-    /* transition: 0.5s; */
     padding: 30px 30px;
     color: #ffffff;
-    /* border-radius: 10px; */
 }
 
 #btn4:hover {
@@ -483,4 +440,12 @@
     100% {
         color:#ffffff;
     }
+}
+
+#logoTech1 img {
+    width: 30px;
+}
+
+#logoTech1 {
+    gap: 10px;
 }
