@@ -22,11 +22,3 @@ function gantiMode() {
         ambil.textContent = '☀️ Light';
     }
 }
-
-// var github = document.querySelector('.iconGithub');
-
-// if (document.body.classList.contains('lightMode')) {
-    
-// } else {
-    
-// }
