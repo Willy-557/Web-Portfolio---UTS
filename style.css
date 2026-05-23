@@ -13,9 +13,7 @@
     animation: typing 3s linear infinite alternate;
 }
 
-body.lightMode #animasiKetik {
-    border-right: 3px solid black;
-}
+
 
 @keyframes typing {
     from { width: 0; }
@@ -28,10 +26,7 @@ body.lightMode #animasiKetik {
     z-index: 999;
 }
 
-body.lightMode #navbar {
-    background-color: white;
-    color: black;
-}
+
 
 
 #mainText1 {
@@ -74,10 +69,6 @@ body.lightMode #navbar {
     border: 1px solid rgb(255, 255, 255);
     border-radius: 30px;
     padding: 15px;
-}
-
-body.lightMode #bulat {
-    border: 1px solid black;
 }
 
 #kotak {
@@ -339,9 +330,7 @@ body.lightMode #bulat {
     color: #ffffff;
 }
 
-body.lightMode #btn4 {
-    color: black;
-}
+
 
 #btn4:hover {
     color: #059669;
@@ -353,9 +342,7 @@ body.lightMode #btn4 {
     color: white;
 }
 
-body.lightMode #btn4a {
-    color: black;
-}
+
 
 #table {
     text-align: center;
@@ -381,10 +368,6 @@ body.lightMode #btn4a {
     padding: 15px;
     color: #F1F5F9;
     border-bottom: 1px solid #334155;
-}
-
-body.lightMode #isiTable td {
-    color: black;
 }
 
 #khusus:hover {
@@ -526,6 +509,32 @@ body.lightMode #isiTable td {
     border-radius: 50px;
     cursor: pointer;
     transition: 0.4s;
+}
+
+body.lightMode #animasiKetik {
+    border-right: 3px solid black;
+}
+
+body.lightMode #navbar {
+    background-color: white;
+    color: black;
+}
+
+body.lightMode #bulat {
+    border: 1px solid black;
+}
+
+
+body.lightMode #btn4 {
+    color: black;
+}
+
+body.lightMode #btn4a {
+    color: black;
+}
+
+body.lightMode #isiTable td {
+    color: black;
 }
 
 body.lightMode .bulat {

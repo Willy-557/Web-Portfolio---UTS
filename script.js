@@ -21,4 +21,6 @@ function gantiMode() {
         github.src = 'github-logo.png';
         ambil.textContent = '☀️ Light';
     }
+
+    // tes
 }
