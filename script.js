@@ -7,3 +7,26 @@ function filter(category) {
         }
     });
 }
+
+function gantiMode() {
+    let ambil = document.querySelector('.btngantiMode');
+    var github = document.querySelector('.iconGithub');
+
+    if (document.body.classList.contains('lightMode')) {
+        document.body.classList.remove('lightMode');
+        github.src = 'github-white-icon.webp';
+        ambil.textContent = '🌙 Dark';
+    } else {
+        document.body.classList.add('lightMode');
+        github.src = 'github-logo.png';
+        ambil.textContent = '☀️ Light';
+    }
+}
+
+// var github = document.querySelector('.iconGithub');
+
+// if (document.body.classList.contains('lightMode')) {
+    
+// } else {
+    
+// }

@@ -13,6 +13,10 @@
     animation: typing 3s linear infinite alternate;
 }
 
+body.lightMode #animasiKetik {
+    border-right: 3px solid black;
+}
+
 @keyframes typing {
     from { width: 0; }
     to { width: 100%; }
@@ -24,17 +28,23 @@
     z-index: 999;
 }
 
+body.lightMode #navbar {
+    background-color: white;
+    color: black;
+}
+
+
 #mainText1 {
     margin-top: 20px 0px;
 }
 
 .containerNavbar a {
     text-decoration: none;
-    color: #ffffff;
 }
 
 #kananNavbar {
     gap: 40px;
+    top: 10px;
 }
 
 #body1kiri {
@@ -64,6 +74,10 @@
     border: 1px solid rgb(255, 255, 255);
     border-radius: 30px;
     padding: 15px;
+}
+
+body.lightMode #bulat {
+    border: 1px solid black;
 }
 
 #kotak {
@@ -243,7 +257,8 @@
 
 #kotakText {
     width: 450px;
-    margin: 0px 10px
+    margin: 0px 10px;
+    color: white;
 }
 
 .atas {
@@ -324,6 +339,10 @@
     color: #ffffff;
 }
 
+body.lightMode #btn4 {
+    color: black;
+}
+
 #btn4:hover {
     color: #059669;
 }
@@ -331,6 +350,11 @@
 #btn4a {
     padding: 10px 30px;
     border-radius: 10px;
+    color: white;
+}
+
+body.lightMode #btn4a {
+    color: black;
 }
 
 #table {
@@ -357,6 +381,10 @@
     padding: 15px;
     color: #F1F5F9;
     border-bottom: 1px solid #334155;
+}
+
+body.lightMode #isiTable td {
+    color: black;
 }
 
 #khusus:hover {
@@ -458,6 +486,8 @@
     background-color: #1E293B;
     transition: 0.5s;
     border-radius: 5px;
+
+    color: white;
 }
 
 #kotakbody3 img {
@@ -498,6 +528,15 @@
     transition: 0.4s;
 }
 
+body.lightMode .bulat {
+    border: 1px solid black;
+}
+
+body.lightMode .bulat:hover {
+    background-color: black;
+    color: white;
+}
+
 .bulat:hover {
     background-color: white;
     color: black;
@@ -505,4 +544,17 @@
 
 #gbrKotak {
     max-width: 100%;
+}
+
+.lightMode {
+    background-color: white;
+    color: black;
+}
+
+#teksSkill {
+    color: white;
+}
+
+.btngantiMode {
+    cursor: pointer;
 }
