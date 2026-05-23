@@ -18,7 +18,7 @@ function gantiMode() {
         ambil.textContent = '🌙 Dark';
     } else {
         document.body.classList.add('lightMode');
-        github.src = 'github-logo.png';
+        github.src = 'github-black.png';
         ambil.textContent = '☀️ Light';
     }
 
