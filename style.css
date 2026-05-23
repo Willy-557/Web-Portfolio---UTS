@@ -20,7 +20,7 @@
 
 #navbar {
     top: 0;
-    position: sticky;
+    position: sticky; 
     z-index: 999;
 }
 
@@ -448,4 +448,39 @@
 
 #logoTech1 {
     gap: 10px;
+}
+
+#kotakbody31 {
+    justify-content: space-around;
+    font-size: 18px;
+    padding: 12px;
+
+    background-color: #1E293B;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+#kotakbody3 img {
+    width: 100%;
+}
+
+#kotakbody31:hover {
+    background-color: #334155;
+}
+
+#kotakbody31:hover {
+    height: 645px;
+    transition: height 0.4s ease;
+}
+
+#kotakbody31 {
+    overflow: hidden;
+    height: 410px;
+}
+
+#kotakbody31 video,
+#kotakbody31 iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
