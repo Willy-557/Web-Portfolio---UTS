@@ -72,12 +72,12 @@
                     <h3>About</h3>
                     <p class="gradien" id="pemisah">👨‍🏫 A short story of me</p>
                     <hr>
-                    <div class="paragraph" data-aos="fade-right" data-aos-duration="800" data-aos-delay="200">
-                        <p>Hello there! Thank you for visiting my digital workspace. I am <b id="ijo">William Fabian Setiadi</b>, a dedicated Business Information Systems student at ISTTS based in Surabaya. I have a strong passion for <b id="ijo">Fullstack and Front-End development</b>. I build solid programming foundations using Java, SQL, HTML, and CSS. I focus on creating structured, system-driven environments for every web application I develop. I also actively manage my code utilizing tools like NetBeans and GitHub to ensure project reliability from day one.</p>
+                    <div class="paragraph">
+                        <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">Hello there! Thank you for visiting my digital workspace. I am <b id="ijo">William Fabian Setiadi</b>, a dedicated Business Information Systems student at ISTTS based in Surabaya. I have a strong passion for <b id="ijo">Fullstack and Front-End development</b>. I build solid programming foundations using Java, SQL, HTML, and CSS. I focus on creating structured, system-driven environments for every web application I develop. I also actively manage my code utilizing tools like NetBeans and GitHub to ensure project reliability from day one.</p>
                         <br>
-                        <p>I apply my technical skills directly in academic leadership roles. I actively serve as a <b id="ijo">Laboratory Assistant</b> for the ACS and MAD courses. This position trains me to mentor peers, prepare complex technical tests, and solve problems efficiently. I thrive in collaborative environments and value clear communication. I always ensure my code is clean, scalable, and easy for other developers to maintain.</p>
+                        <p data-aos="fade-right" data-aos-duration="800" data-aos-delay="300">I apply my technical skills directly in academic leadership roles. I actively serve as a <b id="ijo">Laboratory Assistant</b> for the ACS and MAD courses. This position trains me to mentor peers, prepare complex technical tests, and solve problems efficiently. I thrive in collaborative environments and value clear communication. I always ensure my code is clean, scalable, and easy for other developers to maintain.</p>
                         <br>
-                        <p><b id="ijo">Discipline and endurance</b> form my core work ethic. I regularly train for long-distance running using heart rate zone methods and maintain a consistent weekend swimming routine. I apply this level of consistency and stamina to complex programming challenges. I adapt to new technologies with enthusiasm and think analytically to build optimal solutions. I am excited to bring my dedication to a forward-thinking team. Let us build impactful digital experiences together!</p>
+                        <p data-aos="fade-right" data-aos-duration="600" data-aos-delay="200"><b id="ijo">Discipline and endurance</b> form my core work ethic. I regularly train for long-distance running using heart rate zone methods and maintain a consistent weekend swimming routine. I apply this level of consistency and stamina to complex programming challenges. I adapt to new technologies with enthusiasm and think analytically to build optimal solutions. I am excited to bring my dedication to a forward-thinking team. Let us build impactful digital experiences together!</p>
                     </div>
                     <br>
                     <audio id="pemisah" src="voice-about.mp3" controls></audio>
@@ -137,15 +137,19 @@
         <section id="project">
             <div class="atas"></div>
             <div class="container item" id="body2atas">
-                <h1>Project Showcase</h1>
+                <h1>Project Showcase</h1
                 <p id="pemisah">Explore my portfolio of concept projects, showcasing my hands-on experience in building responsive and user-friendly applications.</p>
             </div>
+
             <br>
+
             <div class="item container" id="filter">
                 <p class="bulat" onclick="filter('all')">All</p>
                 <p class="bulat" onclick="filter('web-design')">Web Design</p>
                 <p class="bulat" onclick="filter('editing')">Editing</p>
             </div>
+
+            <div class="hasilPopup"></div>
             
             <div class="penghilang">
                 <div class="container" id="body3bawah">
@@ -166,14 +170,14 @@
                                 <img src="mysql-original.svg" alt="">
                             </div>
                             <br>
-                            <div class="container" id="pemisah">
+                            <div class="container Tombol" id="pemisah">
                                 <a target="_blank" href="https://willy-557.github.io/Website-Milo-Jelly/"><p class="btn1">Live Sites</p></a>
+                                <img id="detail" onclick="openPopup(0)" src="external-link (2).svg" alt="">
                             </div>
                         </div>
                     </div>
                 
                     <div class="containerKotak web-design" id="kotakbody31">
-                    
                         <div class="item">
                             <a target="_blank" href="https://drive.google.com/file/d/1B34RMVN_MR-ongS4h8tDiBSOoXbFOLZe/view?usp=sharing">
                                 <video src="vid-fore.mp4" width="1456" height="736" style="max-width: 100%; height: auto;" autoplay loop muted playsinline></video>
@@ -190,8 +194,9 @@
                                 <img src="mariadb-original.svg" alt="">
                             </div>
                             <br>
-                            <div class="container"id="pemisah">
+                            <div class="container Tombol"id="pemisah">
                                 <a target="_blank" href="https://willy-557.github.io/Simple-Coffee-Shop-Landing-Page/"><p class="btn1">Live Sites</p></a>
+                                <img id="detail" onclick="openPopup(1)" src="external-link (2).svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -213,8 +218,9 @@
                                 <img src="mongodb-original.svg" alt="">
                             </div>
                             <br>
-                            <div class="container" id="pemisah">
+                            <div class="container Tombol" id="pemisah">
                                 <a target="_blank" href="https://willy-557.github.io/Simple-Clone-Tesla-Web/"><p class="btn1">Live Sites</p></a>
+                                <img id="detail" onclick="openPopup(2)" src="external-link (2).svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -237,8 +243,9 @@
                                 <img src="postgresql-original.svg" alt="">
                             </div>
                             <br>
-                            <div class="container" id="pemisah">
+                            <div class="container Tombol" id="pemisah">
                                 <a target="_blank" href="https://willy-557.github.io/Shangrila/"><p class="btn1">Live Sites</p></a>
+                                <img id="detail" onclick="openPopup(3)" src="external-link (2).svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -260,8 +267,9 @@
                                 <img src="mysql-original.svg" alt="">
                             </div>
                             <br>
-                            <div class="container" id="pemisah">
+                            <div class="container Tombol" id="pemisah">
                                 <a target="_blank" href="https://willy-557.github.io/Fake-Traveloka1/"><p class="btn1">Live Sites</p></a>
+                                <img id="detail" onclick="openPopup(4)" src="external-link (2).svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -285,8 +293,9 @@
                                 <img src="postgresql-original.svg" alt="">
                             </div>
                             <br>
-                            <div class="container" id="pemisah">
+                            <div class="container Tombol" id="pemisah">
                                 <a target="_blank" href="https://willy-557.github.io/Fake-Greenly/"><p class="btn1">Live Sites</p></a>
+                                <img id="detail" onclick="openPopup(5)" src="external-link (2).svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -295,9 +304,7 @@
 
                     <div class="containerKotak editing" id="kotakbody31">
                         <div class="item">
-                            <!-- <a target="_blank" href="#"> -->
-                                <img target="_blank" id="gbrKotak" src="p1.png">
-                            <!-- </a> -->
+                            <img target="_blank" id="gbrKotak" src="p1.png">
                             <h4 id="pemisah">Interactive Event Space Concept for ISTTS Auditorium</h4>
                             <br>
                             <p id="pemisah">This design blends an ISTTS Auditorium photo with 3D graphics. Floating posters create a lively space.</p>
@@ -307,17 +314,16 @@
                                 <img src="canva-original.svg" alt="">
                             </div>
                             <br>
-                            <div class="container" id="pemisah">
+                            <div class="container Tombol" id="pemisah">
                                 <a target="_blank" href="https://drive.google.com/file/d/1XKhmVAABOrH95xLkjz6yFvyRLoYg2Rn9/view?usp=sharing"><p class="btn1">Live Photos</p></a>
+                                <img id="detail" onclick="openPopup(6)" src="external-link (2).svg" alt="">
                             </div>
                         </div>
                     </div>
 
                     <div class="containerKotak editing" id="kotakbody31">
                         <div class="item">
-                            <a target="_blank" href="#">
-                                <img target="_blank" id="gbrKotak" src="p2.png">
-                            </a>
+                            <img target="_blank" id="gbrKotak" src="p2.png">
                             <h4 id="pemisah">Cute Cactus Character Illustration</h4>
                             <br>
                             <p id="pemisah">A green cactus smiles in a blue pot. A bright yellow glow brings the character to life.</p>
@@ -328,17 +334,16 @@
                                 <img src="figma-original.svg" alt="">
                             </div>
                             <br>
-                            <div class="container" id="pemisah">
+                            <div class="container Tombol" id="pemisah">
                                 <a target="_blank" href="https://drive.google.com/file/d/1hXNG2_av0Zr0-bC29nr_-NE2NEqHQ62W/view?usp=sharing"><p class="btn1">Live Photos</p></a>
+                                <img id="detail" onclick="openPopup(7)" src="external-link (2).svg" alt="">
                             </div>
                         </div>
                     </div>
 
                     <div class="containerKotak editing" id="kotakbody31">
                         <div class="item">
-                            <a target="_blank" href="#">
-                                <img target="_blank" id="gbrKotak" src="p3.png">
-                            </a>
+                            <img target="_blank" id="gbrKotak" src="p3.png">
                             <h4 id="pemisah">Cosmic Culinary Festival Poster</h4>
                             <br>
                             <p id="pemisah">This vibrant poster mixes food and space themes. Rockets and an astronaut highlight your layout skills.</p>
@@ -348,17 +353,16 @@
                                 <img src="figma-original.svg" alt="">
                             </div>
                             <br>
-                            <div class="container" id="pemisah">
+                            <div class="container Tombol" id="pemisah">
                                 <a target="_blank" href="https://drive.google.com/file/d/17KYh3JLeTpFY-hb6qJlHM1H2Olpockin/view?usp=sharing"><p class="btn1">Live Photos</p></a>
+                                <img id="detail" onclick="openPopup(8)" src="external-link (2).svg" alt="">
                             </div>
                         </div>
                     </div>
 
                     <div class="containerKotak editing" id="kotakbody31">
                         <div class="item">
-                            <a target="_blank" href="#">
-                                <img target="_blank" id="gbrKotak" src="p4.png">
-                            </a>
+                            <img target="_blank" id="gbrKotak" src="p4.png">
                             <h4 id="pemisah">Japan Culture & Sports Stamps</h4>
                             <br>
                             <p id="pemisah">This collection displays five vector stamps. Japanese cultural icons show your illustration skills.</p>
@@ -367,36 +371,34 @@
                                 <img src="figma-original.svg" alt="">
                             </div>
                             <br>
-                            <div class="container" id="pemisah">
+                            <div class="container Tombol" id="pemisah">
                                 <a target="_blank" href="https://drive.google.com/file/d/1mHLn0BjOXuGIL5wzEmYeDd5WwB0Ms3Or/view?usp=sharing"><p class="btn1">Live Photos</p></a>
+                                <img id="detail" onclick="openPopup(9)" src="external-link (2).svg" alt="">
                             </div>
                         </div>
                     </div>
 
                     <div class="containerKotak editing" id="kotakbody31">
                         <div class="item">
-                            <a target="_blank" href="#">
-                                <img target="_blank" id="gbrKotak" src="p5.png">
-                            </a>
+                            <img target="_blank" id="gbrKotak" src="p5.png">
                             <h4 id="pemisah">Aesthetic Music Photocard</h4>
                             <br>
                             <p id="pemisah">This vintage photocard combines photography with UI elements. Spotify lyrics and text bubbles build a neat layout.</p>
                             <br>
-                            <div class="container" id="logoTech1">
+                            <div class="container Tombol" id="logoTech1">
                                 <img src="canva-original.svg" alt="">
                             </div>
                             <br>
-                            <div class="container" id="pemisah">
+                            <div class="container  Tombol" id="pemisah">
                                 <a target="_blank" href="https://drive.google.com/file/d/1kIrRIomGT2e52lPryM00o_O0kVnzIFIN/view?usp=sharing"><p class="btn1">Live Photos</p></a>
+                                <img id="detail" onclick="openPopup(10)" src="external-link (2).svg" alt="">
                             </div>
                         </div>
                     </div>
 
                     <div class="containerKotak editing" id="kotakbody31">
                         <div class="item">
-                            <a target="_blank" href="#">
-                                <img target="_blank" id="gbrKotak" src="p6.png">
-                            </a>
+                            <img target="_blank" id="gbrKotak" src="p6.png">
                             <h4 id="pemisah">Casual Portrait Photocard</h4>
                             <br>
                             <p id="pemisah">This minimalist design places a portrait against a night sky. A virtual vinyl record adds a unique touch.</p>
@@ -406,17 +408,16 @@
                                 <img src="figma-original.svg" alt="">
                             </div>
                             <br>
-                            <div class="container" id="pemisah">
+                            <div class="container  Tombol" id="pemisah">
                                 <a target="_blank" href="https://drive.google.com/file/d/1K36FPWoDSlUi8AIhWJjHoWJUCZXhsj1u/view?usp=sharing"><p class="btn1">Live Photos</p></a>
+                                <img id="detail" onclick="openPopup(11)" src="external-link (2).svg" alt="">
                             </div>
                         </div>
                     </div>
 
                     <div class="containerKotak editing" id="kotakbody31">
                         <div class="item">
-                            <a target="_blank" href="#">
-                                <img target="_blank" id="gbrKotak" src="p7.png">
-                            </a>
+                            <img target="_blank" id="gbrKotak" src="p7.png">
                             <h4 id="pemisah">Monochrome Melodies</h4>
                             <br>
                             <p id="pemisah">A striking monochrome shot captures a live musical performance. The dramatic stage lighting highlights the artist's intense focus.</p>
@@ -426,8 +427,9 @@
                                 <img src="canva-original.svg" alt="">
                             </div>
                             <br>
-                            <div class="container" id="pemisah">
+                            <div class="container Tombol" id="pemisah">
                                 <a target="_blank" href="https://drive.google.com/file/d/1vMv6Z01Py_cNE3ZcahHRh_0gQkCxuJbz/view?usp=sharing"><p class="btn1">Live Photos</p></a>
+                                <img id="detail" onclick="openPopup(12)" src="external-link (2).svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -767,6 +769,7 @@
             </div>
             <br>
         </section>
+        
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             AOS.init();

@@ -481,14 +481,14 @@
     background-color: #334155;
 }
 
-#kotakbody31:hover {
+/* #kotakbody31:hover {
     height: 645px;
     transition: height 0.4s ease;
-}
+} */
 
 #kotakbody31 {
     overflow: hidden;
-    height: 410px;
+    height: 645px;
 }
 
 #kotakbody31 video,
@@ -566,4 +566,68 @@ body.lightMode .bulat:hover {
 
 .btngantiMode {
     cursor: pointer;
+}
+
+#detail {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.Tombol {
+    justify-content: space-between;
+}
+
+.containerPopup {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 10px;
+    color: white;
+}
+
+.Popup {
+    max-width: 400px;
+    width: 100%;
+    background-color: #1E293B;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.item {
+    border: 1px solid black;
+    border: none;
+}
+
+#jarak1 {
+    justify-content: space-between;
+}
+
+.hilangkan {
+    display: none;
+}
+
+.gantiTampilan {
+    border-bottom: 1px solid black; 
+    cursor: pointer;
+}
+
+.blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.5);
 }
