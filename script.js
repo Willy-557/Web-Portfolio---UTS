@@ -340,3 +340,16 @@ function closePopup() {
     let ambilTempat = document.querySelector('.hasilPopup');
     ambilTempat.classList.remove('blur')
 }
+
+function buttonMusic() {
+  const btn = document.querySelector('#gbrButton');
+  const audio = document.querySelector('#suara');
+
+  if (audio.paused) {
+    audio.play();
+    btn.src = 'pause.svg';
+  } else {
+    audio.pause();
+    btn.src = 'music (1).svg';
+  }
+}
