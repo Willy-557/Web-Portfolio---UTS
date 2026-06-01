@@ -643,3 +643,113 @@ body.lightMode .bulat:hover {
     padding: 20px;
     border-radius: 50px;
 }
+
+#buttonMenu {
+    display: none;
+}
+
+@media (max-width: 480px) {
+  .containerNavbar {
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+  }
+
+  #kananNavbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    display: none;
+  }
+
+  #kananNavbar.aktif {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #121212;
+    padding: 20px;
+    z-index: 9999;
+  }
+
+  #body1 {
+    flex-direction: column;
+    padding: 40px 15px;
+    align-items: center;
+    text-align: center;
+  }
+
+  #body1kiri h1 {
+    font-size: 36px;
+  }
+
+  #body1kanan {
+    position: static;
+    left: 0;
+    top: 0;
+    max-width: 220px;
+    margin: 0 auto;
+  }
+
+  #skill {
+    justify-content: center;
+  }
+
+  #body2 {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 15px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 200px;
+  }
+
+  #kotakText {
+    width: 100%;
+    margin: 0;
+  }
+
+  #body2bawah {
+    flex-direction: column;
+  }
+
+  #kotakbody31 {
+    height: auto;
+  }
+
+  .containerKotak {
+    max-width: 100%;
+  }
+
+  .atas {
+    padding-top: 50px;
+  }
+
+  .bawah {
+    padding: 30px 15px;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+    #buttonMenu {
+        display: block;
+        margin-left: auto; 
+        cursor: pointer;   
+    }
+}
+
+body.lightMode #kananNavbar.aktif {
+    background-color: white;
+}
+
+body.lightMode #kananNavbar a {
+    color: black;
+}

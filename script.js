@@ -209,13 +209,16 @@ function filter(category) {
 function gantiMode() {
     let ambil = document.querySelector('.btngantiMode');
     var github = document.querySelector('.iconGithub');
+    let ambilButtonMenu = document.querySelector('#buttonMenu');
 
     if (document.body.classList.contains('lightMode')) {
         document.body.classList.remove('lightMode');
         github.src = 'github-white-icon.webp';
+        ambilButtonMenu.src = 'menu.svg';
         ambil.textContent = '🌙 Dark';
     } else {
         document.body.classList.add('lightMode');
+        ambilButtonMenu.src = 'menu (black).svg';
         github.src = 'github-black.png';
         ambil.textContent = '☀️ Light';
     }
@@ -352,4 +355,9 @@ function buttonMusic() {
     audio.pause();
     btn.src = 'music (1).svg';
   }
+}
+
+function bukaMenu() {
+  let ambilMenu = document.querySelector('#kananNavbar');
+  ambilMenu.classList.toggle('aktif');
 }
