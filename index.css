@@ -13,8 +13,6 @@
     animation: typing 3s linear infinite alternate;
 }
 
-
-
 @keyframes typing {
     from { width: 0; }
     to { width: 100%; }
@@ -25,9 +23,6 @@
     position: sticky; 
     z-index: 999;
 }
-
-
-
 
 #mainText1 {
     margin-top: 20px 0px;
@@ -332,8 +327,6 @@
     color: #ffffff;
 }
 
-
-
 #btn4:hover {
     color: #059669;
 }
@@ -343,8 +336,6 @@
     border-radius: 10px;
     color: white;
 }
-
-
 
 #table {
     text-align: center;
@@ -482,11 +473,6 @@
 #kotakbody31:hover {
     background-color: #334155;
 }
-
-/* #kotakbody31:hover {
-    height: 645px;
-    transition: height 0.4s ease;
-} */
 
 #kotakbody31 {
     overflow: hidden;
@@ -745,7 +731,7 @@ body.lightMode .bulat:hover {
         cursor: pointer;   
     }
 }
-
+ 
 body.lightMode #kananNavbar.aktif {
     background-color: white;
 }

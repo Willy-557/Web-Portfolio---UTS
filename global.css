@@ -23,7 +23,7 @@ body {
     display: flex;
     position: relative;
     /* background-color: yellow; */
-}
+} 
 
 .containerNavbar{
     max-width: 1280px;
