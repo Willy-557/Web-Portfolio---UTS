@@ -1,252 +1,10 @@
-.containerNavbar {
-    justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: larger;
-}
-
-#animasiKetik {
-    overflow: hidden;
-    white-space: nowrap;
-    width: 0;
-    border-right: 3px solid white;
-    animation: typing 3s linear infinite alternate;
-}
-
-@keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-}
-
-#navbar {
-    top: 0;
-    position: sticky; 
-    z-index: 999;
-}
-
-#mainText1 {
-    margin-top: 20px 0px;
-}
-
-.containerNavbar a {
-    text-decoration: none;
-}
-
-#kananNavbar {
-    gap: 40px;
-    top: 10px;
-}
-
-#body1kiri {
-    font-size:medium;
-    align-content: center;
-
-    max-width: 600px;
-    width: 100%;
-}
-
-#body1kanan {
-    /* max-width: 800px; */
-    width: 100%;
-    position: relative;
-    left: 50px;
-    top: -100px;
-    margin-top: 30px;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-}
-
-#body1 {
-    justify-content: space-between;
-    padding: 140px 0px;
-}
-
-#bulat {
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 30px;
-    padding: 15px;
-}
-
-#kotak {
-    border-radius: 5px;
-    padding: 10px 40px;
-    background-color: #10B981;
-    color: #121212;
-    transition: 0.3s ;
-}
-
-#kotak:hover {
-    background-color: #059669;
-}
-
-#skill {
-    gap: 20px;
-}
-
-#skill img {
-    max-width: 70px;
-    width: 100%;
-}
-
-.btn3 {
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.btn3:hover {
-    transform: scale(1.2);
-}
-
-#body1kiri h1 {
-    font-size: 100px;
-}
-
-#body2kanan img {
-    max-width: 400px;
-    width: 100%;
-    height: 300px;
-    border-radius: 50%;
-}
-
-#body2kanan {
-    justify-content: center;
-}
-
-#body2 {
-    justify-content: space-between;
-    padding: 50px 0px;
-    /* color: white; */
-    gap: 100px;
-}
-
-#body2atas {
-    display: block;
-    text-align: left;
-    font-size: larger;
-    overflow: hidden;
-    text-wrap: nowrap;
-    border-right: 3px solid white;
-    animation: typing 3s linear infinite alternate;
-}
-
-@keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-}
-
-#body2kiri {
-    font-size: larger;
-}
-
-#ijo {
-    color: #059669;
-}
+/* ============================================================ */
+/* Digunakan untuk keseluruhan halaman web */
+/* ============================================================ */ 
 
 .paragraph {
-  font-family: 'JetBrains Mono', monospace;
-  font-weight: 400;
-}
-
-#body2bawah {
-    justify-content: center;
-    gap: 50px;
-}
-
-#kotakbody2 {
-    font-size: 20px;
-    justify-content: space-between;
-    padding: 15px;
-
-    background-color: #1E293B;
-    transition: 0.5s;
-    border-radius: 5px;
-
-    cursor: pointer;
-}
-
-#kotakbody2:hover {
-    background-color: #334155;
-    transform: scale(1.1);
-}
-
-#kotakbody3 {
-    justify-content: space-around;
-    font-size: 18px;
-    padding: 12px;
-
-    background-color: #1E293B;
-    transition: 0.5s;
-    border-radius: 5px;
-}
-
-#kotakbody3 img {
-    width: 100%;
-}
-
-#kotakbody3:hover {
-    background-color: #334155;
-}
-
-#kotakbody4 {
-    justify-content: space-around;
-    font-size: 18px;
-    padding: 12px;
-
-    background-color: #1E293B;
-    transition: 0.5s;
-    border-radius: 5px;
-}
-
-#award {
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #059669;
-    align-content: center;
-    margin-right: 15px;
-}
-
-#arrow {
-    margin-left: 20px;
-}
-
-#arrow2 img {
-    width: 20px;
-    
-}
-
-#arrow2 {
-    gap: 10px;
-    align-items: center;
-    background-color: #10B981;
-    border-radius: 5px;
-    padding: 8px 35px;
-    transition: 0.3s;
-    color: #121212;
-}
-
-#btn1 {
-    background-color: #10B981;
-    border-radius: 5px;
-    padding: 8px 35px;
-    transition: 0.3s;
-    color: #121212;
-}
-
-#btn1:hover {
-    background-color: #059669;
-    cursor: pointer;
-}
-
-#arrow2:hover {
-    background-color: #059669;
-    cursor: pointer;
-}
-
-#kotakText {
-    width: 450px;
-    margin: 0px 10px;
-    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 400;
 }
 
 .atas {
@@ -255,37 +13,6 @@
 
 .bawah {
     padding: 100px;
-}
-
-#pemisah {
-    margin-top: 10px;
-}
-
-#jarak {
-    justify-content: space-between;
-}
-
-#body3bawah {
-    justify-content: flex-start;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-#body3atas {
-    display: block;
-    text-align: center;
-    background-color: gray;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 10px;
-}
-
-#navbar {
-    background-color:#121212;
-}
-
-#tengah {
-    justify-content: center;
 }
 
 .btn {
@@ -301,7 +28,6 @@
     background-color: rgba(16, 185, 129, 0.1);
 }
 
-
 .btn1 {
     background-color: #10B981;
     border-radius: 5px;
@@ -315,11 +41,87 @@
     cursor: pointer;
 }
 
-#body4bawah {
-    justify-content: flex-start;
-    gap: 15px;
-    margin-top: 50px;
-    flex-wrap: wrap;
+.btn3 {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn3:hover {
+    transform: scale(1.2);
+}
+
+.bulat {
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bulat:hover {
+    background-color: white;
+    color: black;
+}
+
+#ijo {
+    color: #059669;
+}
+
+.gradien {
+    animation: gradient 6s linear infinite;
+}
+
+@keyframes gradient {
+    0%   { color: #ffffff; }
+    25%  { color: #29b78a; }
+    50%  { color: #50be9b; }
+    75%  { color: #ade3d2; }
+    100% { color: #ffffff; }
+}
+
+.hilangkan {
+    display: none;
+}
+
+.gantiTampilan {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.btngantiMode {
+    cursor: pointer;
+}
+
+.Tombol {
+    justify-content: space-between;
+}
+
+
+/* ============================================================
+   Styling untuk navbar
+   ============================================================ */
+
+#navbar {
+    top: 0;
+    position: sticky;
+    z-index: 999;
+    background-color: #121212;
+}
+
+.containerNavbar {
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: larger;
+}
+
+.containerNavbar a {
+    text-decoration: none;
+}
+
+#kananNavbar {
+    gap: 40px;
+    top: 10px;
 }
 
 #btn4 {
@@ -335,6 +137,130 @@
     padding: 10px 30px;
     border-radius: 10px;
     color: white;
+}
+
+#buttonMenu {
+    display: none;
+}
+
+
+/* ============================================================
+   Styling untuk home
+   ============================================================ */
+
+#body1 {
+    justify-content: space-between;
+    padding: 140px 0px;
+}
+
+#body1kiri {
+    font-size: medium;
+    align-content: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+#body1kiri h1 {
+    font-size: 100px;
+}
+
+#animasiKetik {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    border-right: 3px solid white;
+    animation: typing 3s linear infinite alternate;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to   { width: 100%; }
+}
+
+#body1kanan {
+    width: 100%;
+    position: relative;
+    left: 50px;
+    top: -100px;
+    margin-top: 30px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+#skill {
+    gap: 20px;
+}
+
+#skill img {
+    max-width: 70px;
+    width: 100%;
+}
+
+#kotak {
+    border-radius: 5px;
+    padding: 10px 40px;
+    background-color: #10B981;
+    color: #121212;
+    transition: 0.3s;
+}
+
+#kotak:hover {
+    background-color: #059669;
+}
+
+#bulat {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 15px;
+}
+
+#mainText1 {
+    margin-top: 20px 0px;
+}
+
+/* ============================================================
+   Styling untuk section about
+   ============================================================ */
+
+#body2 {
+    justify-content: space-between;
+    padding: 50px 0px;
+    gap: 100px;
+}
+
+#body2kiri {
+    font-size: larger;
+}
+
+#body2atas {
+    display: block;
+    text-align: left;
+    font-size: larger;
+    overflow: hidden;
+    text-wrap: nowrap;
+    border-right: 3px solid white;
+    animation: typing 3s linear infinite alternate;
+}
+
+#body2kanan {
+    justify-content: center;
+}
+
+#body2kanan img {
+    max-width: 400px;
+    width: 100%;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#body2bawah {
+    justify-content: center;
+    gap: 50px;
+}
+
+#pemisah {
+    margin-top: 10px;
 }
 
 #table {
@@ -367,202 +293,151 @@
     background-color: rgba(30, 41, 59, 0.5);
 }
 
-#lagu {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    z-index: 999;
-    text-align: center;
-}
-
 #gbrTable {
     width: 100%;
 }
 
-#logo {
-    display: flex;
-}
 
-#logoTech {
-    padding: 10px;
-    background-color: #334155;
-    padding: 10px 20px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 30px;
-    transition: 0.5s;
-    color: #ffffff;
-}
-
-#logoTech img {
-    width: 30px;
-}
-
-#logoTech p:hover {
-    color: #059669;
-}
-
-#imgTechHead img{
-    width: 35px;
-}
-
-#imgTechHead {
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-}
-
-#TechHead {
-    gap: 10px;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-#techStack1 {
-    gap: 15px;
-    flex-wrap: wrap;
-}
-
-.gradien {
-    animation: gradient 6s linear infinite;
-}
-
-@keyframes gradient {
-    0% {
-        color:#ffffff;
-    }
-    25% {
-        color: #29b78a;
-    }
-    50% {
-        color: #50be9b;
-    }
-    75% {
-        color: #ade3d2;
-    }
-    100% {
-        color:#ffffff;
-    }
-}
-
-#logoTech1 img {
-    width: 30px;
-}
-
-#logoTech1 {
-    gap: 10px;
-}
-
-#kotakbody31 {
-    justify-content: space-around;
-    font-size: 18px;
-    padding: 12px;
-
-    background-color: #1E293B;
-    transition: 0.5s;
-    border-radius: 5px;
-
-    color: white;
-}
-
-#kotakbody3 img {
-    width: 100%;
-}
-
-#kotakbody31:hover {
-    background-color: #334155;
-}
-
-#kotakbody31 {
-    overflow: hidden;
-    height: 645px;
-}
-
-#kotakbody31 video,
-#kotakbody31 iframe {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+/* ============================================================
+   Styling untuk section project
+   ============================================================ */
 
 #filter {
     gap: 20px;
     margin-bottom: 20px;
 }
 
-.bulat {
-    border: 1px solid white;
-    padding: 10px 20px;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: 0.4s;
+#body3bawah {
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-body.lightMode #animasiKetik {
-    border-right: 3px solid black;
+#body3atas {
+    display: block;
+    text-align: center;
+    background-color: gray;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
 }
 
-body.lightMode #navbar {
-    background-color: white;
-    color: black;
-}
-
-body.lightMode #bulat {
-    border: 1px solid black;
-}
-
-
-body.lightMode #btn4 {
-    color: black;
-}
-
-body.lightMode #btn4a {
-    color: black;
-}
-
-body.lightMode #isiTable td {
-    color: black;
-}
-
-body.lightMode .bulat {
-    border: 1px solid black;
-}
-
-body.lightMode .bulat:hover {
-    background-color: black;
+#kotakbody31 {
+    justify-content: space-around;
+    font-size: 18px;
+    padding: 12px;
+    background-color: #1E293B;
+    transition: 0.5s;
+    border-radius: 5px;
     color: white;
+    overflow: hidden;
+    height: 645px;
 }
 
-.bulat:hover {
-    background-color: white;
-    color: black;
+/* #kotakbody31 video,
+#kotakbody31 iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+#kotakbody31:hover {
+    background-color: #334155;
+}
+
+#kotakbody2 {
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #1E293B;
+    transition: 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#kotakbody2:hover {
+    background-color: #334155;
+    transform: scale(1.1);
+}
+
+#kotakbody3 {
+    justify-content: space-around;
+    font-size: 18px;
+    padding: 12px;
+    background-color: #1E293B;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+#kotakbody3 img {
+    width: 100%;
+}
+
+#kotakbody3:hover {
+    background-color: #334155;
+}
+
+#kotakText {
+    width: 450px;
+    margin: 0px 10px;
+    color: white;
 }
 
 #gbrKotak {
     max-width: 100%;
 }
 
-.lightMode {
-    background-color: white;
-    color: black;
+#award {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #059669;
+    align-content: center;
+    margin-right: 15px;
 }
 
-#teksSkill {
-    color: white;
+#arrow {
+    margin-left: 20px;
 }
 
-.btngantiMode {
+#arrow2 {
+    gap: 10px;
+    align-items: center;
+    background-color: #10B981;
+    border-radius: 5px;
+    padding: 8px 35px;
+    transition: 0.3s;
+    color: #121212;
+}
+
+#arrow2 img {
+    width: 20px;
+}
+
+#arrow2:hover {
+    background-color: #059669;
     cursor: pointer;
+}
+
+#btn1 {
+    background-color: #10B981;
+    border-radius: 5px;
+    padding: 8px 35px;
+    transition: 0.3s;
+    color: #121212;
+}
+
+#btn1:hover {
+    background-color: #059669;
+    cursor: pointer;
+}
+
+#jarak {
+    justify-content: space-between;
 }
 
 #detail {
     margin-right: 10px;
     cursor: pointer;
-}
-
-.Tombol {
-    justify-content: space-between;
 }
 
 .containerPopup {
@@ -589,24 +464,6 @@ body.lightMode .bulat:hover {
     z-index: 1000;
 }
 
-.item {
-    border: 1px solid black;
-    border: none;
-}
-
-#jarak1 {
-    justify-content: space-between;
-}
-
-.hilangkan {
-    display: none;
-}
-
-.gantiTampilan {
-    border-bottom: 1px solid black; 
-    cursor: pointer;
-}
-
 .blur {
     position: fixed;
     top: 0;
@@ -620,122 +477,266 @@ body.lightMode .bulat:hover {
     background: rgba(0, 0, 0, 0.5);
 }
 
+#jarak1 {
+    justify-content: space-between;
+}
+
+
+/* ============================================================
+   Styling untuk certification section
+   ============================================================ */
+
+#body4bawah {
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+#kotakbody4 {
+    justify-content: space-around;
+    font-size: 18px;
+    padding: 12px;
+    background-color: #1E293B;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+/* ============================================================
+   Styling untuk skills section
+   ============================================================ */
+
+#TechHead {
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#imgTechHead {
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgTechHead img {
+    width: 35px;
+}
+
+#teksSkill {
+    color: white;
+}
+
+#techStack1 {
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+#logoTech {
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    transition: 0.5s;
+    background-color: #334155;
+    color: #ffffff;
+}
+
+#logoTech img {
+    width: 30px;
+}
+
+#logoTech p:hover {
+    color: #059669;
+}
+
+#logoTech1 {
+    gap: 10px;
+}
+
+#logoTech1 img {
+    width: 30px;
+}
+
+#logo {
+    display: flex;
+}
+
+/* ============================================================
+   Styling untuk musik dan footer
+   ============================================================ */
+
+#tengah {
+    justify-content: center;
+}
+
 .music {
     cursor: pointer;
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background-color:#059669;
+    background-color: #059669;
     padding: 20px;
     border-radius: 50px;
 }
 
-#buttonMenu {
-    display: none;
-}
-
-@media (max-width: 480px) {
-  .containerNavbar {
-    flex-direction: row;
-    align-items: center;
-    padding: 15px;
-    gap: 10px;
-  }
-
-  #kananNavbar {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    display: none;
-  }
-
-  #kananNavbar.aktif {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background-color: #121212;
-    padding: 20px;
-    z-index: 9999;
-  }
-
-  #body1 {
-    flex-direction: column;
-    padding: 40px 15px;
-    align-items: center;
+#lagu {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
     text-align: center;
-  }
-
-  #body1kiri h1 {
-    font-size: 36px;
-  }
-
-  #body1kanan {
-    position: static;
-    left: 0;
-    top: 0;
-    max-width: 220px;
-    margin: 0 auto;
-  }
-
-  #skill {
-    justify-content: center;
-  }
-
-  #body2 {
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px 15px;
-  }
-
-  iframe {
-    width: 100%;
-    height: 200px;
-  }
-
-  #kotakText {
-    width: 100%;
-    margin: 0;
-  }
-
-  #body2bawah {
-    flex-direction: column;
-  }
-
-  #kotakbody31 {
-    height: auto;
-  }
-
-  .containerKotak {
-    max-width: 100%;
-  }
-
-  .atas {
-    padding-top: 50px;
-  }
-
-  .bawah {
-    padding: 30px 15px;
-  }
-
-  .container {
-    padding: 0 15px;
-  }
-
-    #buttonMenu {
-        display: block;
-        margin-left: auto; 
-        cursor: pointer;   
-    }
 }
- 
-body.lightMode #kananNavbar.aktif {
+
+/* ============================================================
+   Styling untuk mode ganti tampilan (light / dark mode)
+   ============================================================ */
+
+.lightMode {
     background-color: white;
+    color: black;
+}
+
+body.lightMode #navbar {
+    background-color: white;
+    color: black;
 }
 
 body.lightMode #kananNavbar a {
     color: black;
+}
+
+body.lightMode #kananNavbar.aktif {
+    background-color: white;
+}
+
+body.lightMode #btn4 {
+    color: black;
+}
+
+body.lightMode #btn4a {
+    color: black;
+}
+
+body.lightMode #animasiKetik {
+    border-right: 3px solid black;
+}
+
+body.lightMode #bulat {
+    border: 1px solid black;
+}
+
+body.lightMode .bulat {
+    border: 1px solid black;
+}
+
+body.lightMode .bulat:hover {
+    background-color: black;
+    color: white;
+}
+
+body.lightMode #isiTable td {
+    color: black;
+}
+
+/* ============================================================
+   Styling untuk responsive
+   ============================================================ */
+
+@media (max-width: 480px) {
+
+    .containerNavbar {
+        flex-direction: row;
+        align-items: center;
+        padding: 15px;
+        gap: 10px;
+    }
+
+    #kananNavbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        display: none;
+    }
+
+    #kananNavbar.aktif {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #121212;
+        padding: 20px;
+        z-index: 9999;
+    }
+
+    #buttonMenu {
+        display: block;
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+    #body1 {
+        flex-direction: column;
+        padding: 40px 15px;
+        align-items: center;
+        text-align: center;
+    }
+
+    #body1kiri h1 {
+        font-size: 36px;
+    }
+
+    #body1kanan {
+        position: static;
+        left: 0;
+        top: 0;
+        max-width: 220px;
+        margin: 0 auto;
+    }
+
+    #skill {
+        justify-content: center;
+    }
+
+    #body2 {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 15px;
+    }
+
+    #body2bawah {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    #kotakText {
+        width: 100%;
+        margin: 0;
+    }
+
+    #kotakbody31 {
+        height: auto;
+    }
+
+    .containerKotak {
+        max-width: 100%;
+    }
+
+    .atas {
+        padding-top: 50px;
+    }
+
+    .bawah {
+        padding: 30px 15px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
 }
